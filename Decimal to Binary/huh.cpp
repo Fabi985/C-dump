@@ -4,7 +4,7 @@
 
 int radix(int number)
 {
-    int Binary, Decimal = number;
+    int Decimal = number;
     int rounds = 0;
 
 
@@ -48,5 +48,7 @@ int main()
 
     radix(x);
     dec_to_bin(x);
+    std::cout << "\n";
+
     return 0;
 }
